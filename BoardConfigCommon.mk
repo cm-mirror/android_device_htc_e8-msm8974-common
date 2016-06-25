@@ -130,6 +130,6 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 
 # Hardware
 BOARD_HARDWARE_CLASS := \
-    hardware/mokee/mkhw \
-    $(LOCAL_PATH)/mkhw
+    hardware/cyanogenmod/cmhw \
+    $(LOCAL_PATH)/cmhw
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/htc_sensorhub/sensor_hub/tap2wake"
